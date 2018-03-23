@@ -1,5 +1,5 @@
-'use strict';
+"use strict";
 
 module.exports = function(Player) {
-    Player.disableRemoteMethodByName("delete", true);
+  Player.disableRemoteMethodByName("delete", true);
 };
