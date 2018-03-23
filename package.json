@@ -6,7 +6,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "mocha test/*.spec.js",
+    "test": "mocha test/*.spec.js --exit",
     "lint": "eslint .",
     "start": "node .",
     "posttest": "npm run lint && nsp check"
